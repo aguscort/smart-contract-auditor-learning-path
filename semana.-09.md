@@ -15,7 +15,7 @@
 - **Ejercicios Prácticos**: Uso de herramientas de verificación formal, desarrollo de especificaciones, verificación de propiedades.
 - **Bibliografía Esencial:** [Documentación de Certora](https://docs.certora.com/), [documentación oficial de Solidity](https://docs.soliditylang.org/) sobre verificación formal.
 - **Cursos Online Recomendados:** [Cyfrin Updraft — Assembly, EVM Opcodes and Formal Verification](https://updraft.cyfrin.io/courses).
-- 
+ 
 ## **Días 63-64: Reporting**
 
 - **Temario Detallado**: Estructura y componentes de informes de auditoría, sistemas de clasificación de vulnerabilidades, técnicas de comunicación efectiva.
