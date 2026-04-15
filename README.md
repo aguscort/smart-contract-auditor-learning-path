@@ -116,72 +116,11 @@
 - **Bibliografía Esencial:** [Documentación oficial de Polygon](https://docs.polygon.technology/).
 - **Cursos Online Recomendados:** [Cyfrin Updraft — Full-Stack Web3 Development Crash Course](https://updraft.cyfrin.io/courses/full-stack-web3-development-crash-course) (incluye despliegue en L2s).
 
-## 🔍**Semana 6: Integración de Oráculos y Patrones de Diseño Avanzado**
+## [🔍Semana 6: Integración de Oráculos y Patrones de Diseño Avanzado](https://github.com/aguscort/smart-contract-auditor-learning-path/blob/main/semana-06.md)
 
-### **Chainlink**
+## [👨‍💻Semana 7: Optimización y Bajo Nivel con Solidity](https://github.com/aguscort/smart-contract-auditor-learning-path/blob/main/semana-07.md)
 
-- **Temario Detallado**: Profundización en el uso de Chainlink para la integración de datos y servicios externos a través de oráculos descentralizados, permitiendo a los smart contracts interactuar con datos fuera de la cadena de bloques de manera segura y confiable.
-- **Bibliografía Esencial:** [Documentación oficial de Chainlink](https://docs.chain.link/) y tutoriales sobre integración de oráculos.
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Chainlink Fundamentals](https://updraft.cyfrin.io/courses).
-
-### **Patrones de Diseño con Solidity y OpenZeppelin**
-
-- **Temario Detallado**: Estudio detallado de patrones de diseño específicos para el desarrollo de smart contracts con Solidity, incluyendo patrones para la seguridad, la upgradability y la reusabilidad del código. Uso de OpenZeppelin para implementar estándares de seguridad y contratos inteligentes reutilizables.
-- **Bibliografía Esencial:** ["Smart Contract Best Practices"](https://consensys.github.io/smart-contract-best-practices/) de ConsenSys, [documentación de OpenZeppelin](https://docs.openzeppelin.com/contracts/), [Solidity Patterns](https://fravoll.github.io/solidity-patterns/).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Foundry Fundamentals](https://updraft.cyfrin.io/courses/foundry) (secciones avanzadas).
-
-### **Smart Contract Proxies y Upgradeability**
-
-- **Temario Detallado**: Conceptos avanzados sobre la actualización de smart contracts mediante el uso de proxies, incluyendo los patrones Proxy y Eternal Storage para la preservación de estados y la lógica de contratos.
-- **Bibliografía Esencial:** [Documentación de OpenZeppelin sobre proxies](https://docs.openzeppelin.com/contracts/5.x/api/proxy), [OpenZeppelin Upgrades Plugins](https://docs.openzeppelin.com/upgrades-plugins/).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security) (incluye secciones sobre proxies y upgradeability).
-
-## 👨‍💻**Semana 7: Optimización y Bajo Nivel con Solidity**
-
-### **Assembly y mload**
-
-- **Temario Detallado**: Introducción a las instrucciones de bajo nivel en Solidity usando Assembly, con foco en la optimización de gas y el acceso directo al almacenamiento de la blockchain. Uso específico de operaciones como **`mload`** para leer datos de la memoria.
-- **Bibliografía Esencial:** Capítulos de Assembly en la [documentación oficial de Solidity](https://docs.soliditylang.org/), [evm.codes](https://www.evm.codes/) (referencia interactiva de opcodes).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Assembly, EVM Opcodes and Formal Verification](https://updraft.cyfrin.io/courses).
-
-### **Blockchain Data Schema**
-
-- **Temario Detallado**: Diseño estratégico de esquemas de datos en blockchain para optimizar el uso del espacio de almacenamiento y la eficiencia de las transacciones. Consideraciones sobre la estructuración de datos complejos en smart contracts.
-- **Bibliografía Esencial:** [Ethereum.org — Data Structures and Encoding](https://ethereum.org/developers/docs/data-structures-and-encoding).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Blockchain Basics](https://updraft.cyfrin.io/courses/blockchain-basics) (secciones sobre estructura interna).
-
-### **StarWare y Soluciones de Escalado**
-
-- **Temario Detallado**: Exploración de StarWare y otras tecnologías de escalado, como zk-Rollups, para mejorar la capacidad y reducir los costos en la red Ethereum. Comprensión de cómo estas soluciones pueden ser implementadas en proyectos existentes.
-- **Bibliografía Esencial:** [The StarkNet Book](https://book.starknet.io/), [documentación de StarkNet](https://docs.starknet.io/).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Fundamentals of Zero-Knowledge Proofs](https://updraft.cyfrin.io/courses).
-
-## **📚**Semana 8: Fundamentos de Seguridad
-
-### **Días 51-52: Vulnerabilidades Comunes**
-
-- **Temario Detallado**: Análisis profundo de vulnerabilidades críticas en smart contracts, incluyendo reentrancy attacks, problemas de aritmética, control de acceso y manipulación de flash loans. Estudio de casos reales y métodos de prevención.
-- **Conceptos Clave**: Reentrancy, integer overflow/underflow, access control patterns, flash loan mechanics, secure coding practices.
-- **Ejercicios Prácticos**: Identificación de vulnerabilidades en contratos reales, desarrollo de exploits éticos en ambiente controlado, implementación de fixes.
-- **Bibliografía Esencial:** [SWC Registry](https://swcregistry.io/), [ConsenSys Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices/), [Ethereum.org — Smart Contract Security](https://ethereum.org/developers/docs/smart-contracts/security/).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security), [Ethernaut](https://ethernaut.openzeppelin.com/) (CTF de OpenZeppelin), [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/).
-
-
-### **Días 53-54: Herramientas de Análisis**
-
-- **Temario Detallado**: Exploración y configuración de herramientas de análisis automático, comprensión de sus capacidades y limitaciones, integración en el flujo de trabajo de auditoría.
-- **Conceptos Clave**: Static analysis, symbolic execution, fuzzing, formal verification tools.
-- **Ejercicios Prácticos**: Configuración del entorno de análisis completo, ejecución de análisis automatizados, interpretación de resultados.
-- **Bibliografía Esencial:** Documentación de [Slither](https://github.com/crytic/slither), [Mythril](https://github.com/Consensys/mythril), [Echidna](https://github.com/crytic/echidna), [Aderyn](https://github.com/Cyfrin/aderyn), [Trail of Bits — Building Secure Contracts](https://secure-contracts.com/).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security) (secciones de herramientas).
-
-### **Días 55-57: Técnicas de Auditoría Manual**
-
-- **Temario Detallado**: Metodologías de revisión de código, identificación de patrones de riesgo, mejores prácticas de auditoría manual.
-- **Conceptos Clave**: Code review patterns, control flow analysis, data flow analysis, common pitfalls.
-- **Ejercicios Prácticos**: Auditoría guiada de contratos reales, documentación de hallazgos, proceso de revisión por pares.
-- **Bibliografía Esencial:** "The Art of Software Security Assessment", [Secureum Mind Map](https://github.com/x676f64/secureum-mind_map), [Secureum Bootcamp Epoch ∞](https://www.secureum.xyz/bootcamp/).
-- **Cursos Online Recomendados:** [Secureum RACE](https://www.secureum.xyz/bootcamp/) (tests mensuales de seguridad), [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security).
+## [📚Semana 8: Fundamentos de Seguridad](https://github.com/aguscort/smart-contract-auditor-learning-path/blob/main/semana-08.md)
 
 ## [👨‍💻Semana 9: Auditoría Avanzada](https://github.com/aguscort/smart-contract-auditor-learning-path/blob/main/semana-09.md)
 
