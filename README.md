@@ -183,61 +183,9 @@
 - **Bibliografía Esencial:** "The Art of Software Security Assessment", [Secureum Mind Map](https://github.com/x676f64/secureum-mind_map), [Secureum Bootcamp Epoch ∞](https://www.secureum.xyz/bootcamp/).
 - **Cursos Online Recomendados:** [Secureum RACE](https://www.secureum.xyz/bootcamp/) (tests mensuales de seguridad), [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security).
 
-## 👨‍💻Semana 9: Auditoría Avanzada
+## [👨‍💻Semana 9: Auditoría Avanzada](https://github.com/aguscort/smart-contract-auditor-learning-path/blob/main/semana-09.md)
 
-### **Días 58-59: Metodologías de Auditoría**
+## [🔍Semana 10: Casos de Estudio](https://github.com/aguscort/smart-contract-auditor-learning-path/blob/main/semana-10.md)
 
-- **Temario Detallado**: Frameworks establecidos de auditoría, definición de alcance y objetivos, sistemas de priorización de vulnerabilidades.
-- **Conceptos Clave**: Audit frameworks, scope definition, risk assessment, finding prioritization.
-- **Ejercicios Prácticos**: Desarrollo de metodología propia, ejercicios de planificación de auditorías, estimación de tiempos.
-- **Bibliografía Esencial:** [Secureum Mind Map](https://github.com/x676f64/secureum-mind_map) (Slots 6-8: Audit Techniques, Findings), [Solodit](https://solodit.xyz/) (base de datos de findings reales).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security).
-
-### **Días 60-61: Análisis Formal**
-
-- **Temario Detallado**: Fundamentos de verificación formal, lenguajes de especificación, verificación de propiedades de seguridad.
-- **Conceptos Clave**: Formal verification, specification languages, property checking, invariant validation.
-- **Ejercicios Prácticos**: Uso de herramientas de verificación formal, desarrollo de especificaciones, verificación de propiedades.
-- **Bibliografía Esencial:** [Documentación de Certora](https://docs.certora.com/), [documentación oficial de Solidity](https://docs.soliditylang.org/) sobre verificación formal.
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Assembly, EVM Opcodes and Formal Verification](https://updraft.cyfrin.io/courses).
-- 
-### **Días 63-64: Reporting**
-
-- **Temario Detallado**: Estructura y componentes de informes de auditoría, sistemas de clasificación de vulnerabilidades, técnicas de comunicación efectiva.
-- **Conceptos Clave**: Report structure, vulnerability classification, technical writing, stakeholder communication.
-- **Ejercicios Prácticos**: Redacción de informes de auditoría, presentación de hallazgos, simulación de comunicación con stakeholders.
-- **Bibliografía Esencial:** [Ejemplos de informes de Trail of Bits](https://github.com/trailofbits/publications/tree/master/reviews), [ejemplos de informes de OpenZeppelin](https://blog.openzeppelin.com/security-audits), [Solodit](https://solodit.xyz/).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security) (secciones de reporting).
-
-## 🔍Semana 10: Casos de Estudio
-
-### **Días 65-66: Análisis de Hacks Famosos**
-
-- **Temario Detallado**: Análisis detallado de hacks históricos significativos, lecciones aprendidas y mejores prácticas derivadas (TheDAO hack, Parity wallet hack, Poly Network incident).
-- **Conceptos Clave**: Attack vectors, exploit analysis, incident response, lessons learned.
-- **Ejercicios Prácticos**: Reconstrucción de exploits en ambiente controlado, análisis de código vulnerable, desarrollo de fixes.
-- **Bibliografía Esencial:** [Rekt News](https://rekt.news/), [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) (reproducciones de exploits en Foundry).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security) (case studies), [Immunefi](https://immunefi.com/) (bug bounties en producción).
-
-### **Días 67-68: DeFi Security**
-
-- **Temario Detallado**: Vulnerabilidades específicas de DeFi, manipulación de oráculos, ataques económicos, seguridad de AMMs.
-- **Conceptos Clave**: AMM security, oracle manipulation, economic attacks, liquidity risks.
-- **Ejercicios Prácticos**: Análisis de protocolos DeFi, identificación de vectores de ataque, desarrollo de pruebas de seguridad.
-- **Bibliografía Esencial:** [Blog de samczsun](https://samczsun.com/), [informes de seguridad de OpenZeppelin](https://blog.openzeppelin.com/security-audits).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Uniswap V3](https://updraft.cyfrin.io/courses/uniswap-v3), [Cyfrin Updraft — Aave V3](https://updraft.cyfrin.io/courses/aave-v3).
-
-### **Días 69-71: Advanced Attack Vectors**
-
-- **Temario Detallado**: MEV y frontrunning, Flashbots, vulnerabilidades cross-chain, ataques avanzados emergentes.
-- **Conceptos Clave**: MEV, flashbots, cross-chain security, advanced exploitation techniques.
-- **Ejercicios Prácticos**: Simulación de ataques avanzados, desarrollo de medidas de prevención, análisis de impacto.
-- **Bibliografía Esencial:** [Flashbots Documentation](https://docs.flashbots.net/), [Flashbots Research](https://writings.flashbots.net/), [MEV Wiki](https://www.mev.wiki/).
-- **Cursos Online Recomendados:** [Cyfrin Updraft — Security and Auditing](https://updraft.cyfrin.io/courses/security) (secciones de MEV y ataques avanzados).
-
-## **📚Semana 11: Proyecto Final Avanzado**
-
-- **Proyecto Integrador Avanzado**: Utilización de todos los conocimientos adquiridos para crear una DApp que integre account abstraction, Chainlink, patrones de diseño avanzados, y soluciones de escalado, proporcionando una solución completa y optimizada.
-- **Bibliografía Esencial:** Recursos combinados de todas las semanas anteriores.
-- **Plataformas de Práctica Real:** [CodeHawks](https://www.codehawks.com/) (auditorías competitivas de Cyfrin), [Code4rena](https://code4rena.com/), [Sherlock](https://www.sherlock.xyz/).
+## [📚Semana 11: Proyecto Final Avanzado📚](https://github.com/aguscort/smart-contract-auditor-learning-path/blob/main/semana-11.md)
 
